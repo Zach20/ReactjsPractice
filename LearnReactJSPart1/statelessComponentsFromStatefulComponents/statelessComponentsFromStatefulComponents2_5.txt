@@ -1,0 +1,13 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+
+class Parent extends React.Component {
+  constructor() {
+    super(props)
+    this.state = { name: 'Frarthur'}
+  }
+  render() {
+    return <div></div>;
+  }
+}
